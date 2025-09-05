@@ -22,7 +22,7 @@ vim.opt.mouse = "a"
 vim.opt.scrolloff = 8
 
 -- Configurar clipboard Revisar como usar
-vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = unnamedplus
 
 -- Marcar la linea actual de codificación
 vim.opt.cursorline = true
