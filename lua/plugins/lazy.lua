@@ -13,6 +13,11 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     {
+    'tribela/transparent.nvim',
+    event = 'VimEnter',
+    config = true,
+    },
+    {
         'AlexvZyl/nordic.nvim',
         lazy = false,
         priority = 1000,
